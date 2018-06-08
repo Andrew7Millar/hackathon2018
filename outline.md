@@ -1,15 +1,20 @@
+Prior to Hackathon (After SWC)
+###
+
+Instructions will be needed for each of the following:
+
+* Conda installation of Python (if not done from SWC)
+* checkout hackathon repo
+* Install ZeroMQ
+* Install Matlab Python engine (optional)
+* `pip install cis_interface`
+* Run limited test suite from hackathon instruction materials
+
+
 1. Introduction & Overview
     1. Location of repo & documentation
     1. Survey operating systems, existing models, and programming languages
-1. Setup
-    1. Conda installation
-    1. Python environment setup
-    1. Checkout course materials
-1. Installation
-    1. ZeroMQ C/C++ Libraries
-    1. Matlab Python Engine (don't go over, just provide directions for those using Matlab)
-    1. `pip install cis_interface`
-    1. Run limited test suite from course materials
+1. Debug setup & installation to ensure everyone on same page
 1. Worked Example
     1. Converting a model
         1. Introduce fake model in Python without API calls (provide examples in other languages)
