@@ -1,0 +1,22 @@
+models:
+  - name: photosynthesis
+    language: python
+    args: photosynthesis.py
+    inputs:
+      - name: photo_in
+        field_names: T,CO2,light
+        field_units: K,ppm,umol/s/cm**2
+    outputs:
+      - name: photo_out
+        field_names: photo
+        field_units: umol/s/cm**2
+
+connections:
+  - input_file:
+      name: photo_input.txt
+      filetype: table
+    output: photo_in
+  - input: photo_out
+    output_file:
+      name: photo_output.txt
+      filetype: table
