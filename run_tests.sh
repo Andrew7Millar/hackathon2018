@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 # Run original model
+mkdir Output
 python growth.py Input/photosynthesis_rate.txt Output/growth_rate.txt
 
 # Run integrations with files
